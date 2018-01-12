@@ -12,7 +12,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
 
 hr {
-  
+  max-width: 50px;
   border-width: 3px;
   border-color: #F05F40; }
 
@@ -134,7 +134,7 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("iphone-x.jpg");
+  background-image: url("../img/header.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -144,12 +144,7 @@ header.masthead {
     margin-top: 30px;
     margin-bottom: 30px; }
   header.masthead h1 {
-<<<<<<< HEAD
-    font-size: 2rem;
-    font-color: aqua;}
-=======
     font-size: 2rem; }
->>>>>>> 3cb28afd9d51427bde5de29ce86e512c9bce4468
   header.masthead p {
     font-weight: 300; }
   @media (min-width: 768px) {
@@ -162,20 +157,10 @@ header.masthead {
       padding-top: 0;
       padding-bottom: 0; }
       header.masthead h1 {
-<<<<<<< HEAD
-        font-size: 3rem;
-        font-color: aqua;} }
-  @media (min-width: 1200px) {
-    header.masthead h1 {
-      font-size: 4rem;
-      font-color: aqua;}
-      }
-=======
         font-size: 3rem; } }
   @media (min-width: 1200px) {
     header.masthead h1 {
       font-size: 4rem; } }
->>>>>>> 3cb28afd9d51427bde5de29ce86e512c9bce4468
 
 .service-box {
   max-width: 400px; }
@@ -232,26 +217,6 @@ header.masthead {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-<<<<<<< HEAD
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  cursor: pointer; }
-
-.btn-xl {
-  padding: 1rem 2rem;
-  cursor:pointer; }
-
-.btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
-  cursor: pointer;}
-  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    color: #fff;
-    background-color: #ee4b28 !important;
-    cursor: pointer;}
-  .btn-primary:active, .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
-    cursor: pointer;}
-=======
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 .btn-xl {
@@ -274,4 +239,3 @@ header.masthead {
   }
 
     /* Style the search box inside the navigation bar */
->>>>>>> 3cb28afd9d51427bde5de29ce86e512c9bce4468
