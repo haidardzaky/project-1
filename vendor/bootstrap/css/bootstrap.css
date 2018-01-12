@@ -196,6 +196,10 @@ dfn {
 b,
 strong {
   font-weight: bolder;
+<<<<<<< HEAD
+  font-color: aqua;
+=======
+>>>>>>> 3cb28afd9d51427bde5de29ce86e512c9bce4468
 }
 
 small {
@@ -439,6 +443,10 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 2.5rem;
+<<<<<<< HEAD
+  color: aqua;
+=======
+>>>>>>> 3cb28afd9d51427bde5de29ce86e512c9bce4468
 }
 
 h2, .h2 {
@@ -8262,6 +8270,10 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .text-uppercase {
   text-transform: uppercase !important;
+<<<<<<< HEAD
+  text-color: darkblue;
+=======
+>>>>>>> 3cb28afd9d51427bde5de29ce86e512c9bce4468
 }
 
 .text-capitalize {

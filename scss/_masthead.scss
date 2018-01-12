@@ -2,7 +2,11 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
+<<<<<<< HEAD
+  background-image: url('../img/iphone-x.jpg');
+=======
   background-image: url('../img/header.jpg');
+>>>>>>> 3cb28afd9d51427bde5de29ce86e512c9bce4468
   background-position: center center;
   @include background-cover;
   hr {
