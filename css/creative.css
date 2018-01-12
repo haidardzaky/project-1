@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; text-color: darkblue;}
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 .bg-primary {
   background-color: #F05F40 !important; }
@@ -144,8 +144,12 @@ header.masthead {
     margin-top: 30px;
     margin-bottom: 30px; }
   header.masthead h1 {
+<<<<<<< HEAD
     font-size: 2rem;
     font-color: aqua;}
+=======
+    font-size: 2rem; }
+>>>>>>> 3cb28afd9d51427bde5de29ce86e512c9bce4468
   header.masthead p {
     font-weight: 300; }
   @media (min-width: 768px) {
@@ -158,6 +162,7 @@ header.masthead {
       padding-top: 0;
       padding-bottom: 0; }
       header.masthead h1 {
+<<<<<<< HEAD
         font-size: 3rem;
         font-color: aqua;} }
   @media (min-width: 1200px) {
@@ -165,6 +170,12 @@ header.masthead {
       font-size: 4rem;
       font-color: aqua;}
       }
+=======
+        font-size: 3rem; } }
+  @media (min-width: 1200px) {
+    header.masthead h1 {
+      font-size: 4rem; } }
+>>>>>>> 3cb28afd9d51427bde5de29ce86e512c9bce4468
 
 .service-box {
   max-width: 400px; }
@@ -221,6 +232,7 @@ header.masthead {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
+<<<<<<< HEAD
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   cursor: pointer; }
 
@@ -239,3 +251,27 @@ header.masthead {
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
     cursor: pointer;}
+=======
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+
+.btn-xl {
+  padding: 1rem 2rem; }
+
+.btn-primary {
+  background-color: white;
+  border-color: #F05F40; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: #ee4b28 !important; }
+  .btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
+
+.header-search container {
+  font-size: .75rem;
+  height: 48px;
+  margin-left: 15px;
+  width: 100%;
+  }
+
+    /* Style the search box inside the navigation bar */
+>>>>>>> 3cb28afd9d51427bde5de29ce86e512c9bce4468
